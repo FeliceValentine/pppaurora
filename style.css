@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Font for the main bits -Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+/* Aurora intro style */
+
+body{
+    background-color: #fcd5ce;
+    font-family:"Poppins";
+    margin:1rem;
+    margin-right:0;
+}
+.Aurora{
+    display: flex;
+}
+.description-A {
+    background-color:#fec5bb;
+    border-radius: 15px;
+    border:solid;
+    border-color: #ffc6ff;
+   font-family: 'MonteCarlo', cursive;
+    color:#222224;
+    margin: 2rem;
+   
+}
+.tierone{
+    background-color:#b3e0e9e7;
+    border-radius: 25px;
+    border:solid;
+    border-color: #d7c3e2;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    border-width: 5px;
+  
+}
+.tiertwo{
+    background-color:#d4dae2;
+    border-radius: 25px;
+    border:solid;
+    border-color: #ffafcc;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    border-width: 5px;
+    color:000814;
+ 
+}
+
+.tierthree{
+    background-color:#f0dbfb;
+    border-radius: 25px;
+    border:solid;
+    border-color: #da95a1;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    color:#000814;
+    border-width: 5px;
+
+}
+.tiers{
+    display: flex;
+    justify-content: space-around;
+   flex-direction: column;
+    align-items: stretch;
+    align-content: space-between;
+    margin: 1rem;
+    padding:1rem;
+    
+}
+.apianddescription{
+    background-color:#feeafa;
+    border-radius: 45px;
+    border:solid;
+    border-color: #892b64;
+    color: #892b64;
+    padding:0.5rem;
+    width: 35vh;
+    height: 35vw;
+
+}
+.updatedTotal{
+    background-color:#ffafcc;
+    border-radius: 55px;
+    border:solid;
+    border-color: #892b64;
+    margin: 1rem;
+    color: #892b64;
+    padding:1rem;
+    border-width: 5px;
+}
+
+button {
+    background-color:#ffafcc;
+    border-radius: 55px;
+    border:solid;
+    border-color: #bebce2;
+    margin: 1rem;
+    color: #0f0a4e;
+    padding:1rem;
+    border-width: 5px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    /* align-self: center; */
+    align-items: stretch;
+    align-content: space-between;
+    margin: 1rem; 
+
+}
+.wrappertwo{
+    background-color: #ffe1dc;
+    border-radius: 25px;
+    border:solid;
+    border-color: #eeb3ee;
+border-width: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    align-content: space-between;
+    margin: 1rem; 
+    margin-top: 3rem; 
+    flex-direction: column;
+    padding:1rem;
+    width: 20vh;
+    height: 20vw;
+    color: #892b64;
+
+}
